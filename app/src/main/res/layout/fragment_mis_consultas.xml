@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fr_mis_consultas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MiDisponibilidad">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/especialidades5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:srcCompat="@drawable/especialidades5">
+
+
+        <TextView
+            android:id="@+id/txt_cita_a_realizar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:hint="@string/txt_cita_proxima"
+            android:textColorHint="#fff"
+            android:textSize="18dp" />
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/lv_citas_proximas"
+            android:background="#3BFFFFFF" />
+
+        <TextView
+            android:id="@+id/txt_cita_en_espera"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_citas_en_espera"
+            android:textColorHint="#fff"
+            android:textSize="18dp" />
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/lv_citas_en_espera"
+            android:background="#7A35FDF6"
+            />
+
+        <TextView
+            android:id="@+id/txt_cita_perdida"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_citas_fallidas"
+            android:textColorHint="#fff"
+            android:textSize="18dp" />
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/lv_citas_perdidas"
+            android:background="#B7DD6161" />
+
+        <TextView
+            android:id="@+id/txt_cita_concluida"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_citas_concluidas"
+            android:textColorHint="#fff"
+            android:textSize="18dp" />
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/lv_citas_realizadas"
+            android:background="#B789D591" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

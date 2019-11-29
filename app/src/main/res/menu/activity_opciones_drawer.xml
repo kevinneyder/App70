@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/solicitarConsulta"
+            android:icon="@drawable/mis_consultas2"
+            android:title="@string/opn_solicitutar_consulta" />
+        <item
+            android:id="@+id/misConsultas"
+            android:icon="@drawable/solicitar_consulta2"
+            android:title="@string/opn_mis_consultas" />
+        <item
+            android:id="@+id/misExamenes"
+            android:icon="@drawable/mis_examenes2"
+            android:title="@string/opn_mis_examenes" />
+        <item
+            android:id="@+id/misMedicamentos"
+            android:icon="@drawable/mis_nedicamentos3"
+            android:title="@string/opn_mis_medicamentos" />
+
+        <!--</group>-->
+
+        <!-- <item android:title="Communicate">
+             <menu>-->
+        <item
+            android:id="@+id/informacionDeMedicamentos"
+            android:icon="@drawable/eternet3"
+            android:title="@string/opn_informacion_de_medicamentos" />
+        <item
+            android:id="@+id/cerrarSesion"
+            android:icon="@drawable/cerrar_sesion"
+            android:title="@string/opn_cerrar_sesion" />
+        <!--   </menu>
+       </item>-->
+        <!--anadimos esto-->
+    </group>
+
+
+</menu>

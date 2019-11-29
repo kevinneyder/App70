@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/logo5"
+
+        />
+    <!--android:background="#d8000000"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:srcCompat="@drawable/logo5">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            app:srcCompat="@drawable/hospi" />
+
+        <EditText
+            android:id="@+id/txt_correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="75dp"
+            android:hint="@string/txt_dato"
+            android:textColor="#fff"
+            android:textColorHighlight="#fff"
+            android:drawableLeft="@drawable/usuario2"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/txt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="75dp"
+            android:hint="@string/txt_pasword1"
+            android:textColorHighlight="#fff"
+            android:drawableLeft="@drawable/loock"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="40dp"
+            android:background="#3BFFFFFF"
+            android:onClick="irAmenu"
+            android:text="@string/btn_regis"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+</RelativeLayout>

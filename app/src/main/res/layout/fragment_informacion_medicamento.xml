@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fr_informacion_medicamento"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InformacionMedicamento">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/especialidades5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:srcCompat="@drawable/especialidades5" />
+
+    <EditText
+        android:id="@+id/txt_buscar_medicamento"
+        android:layout_width="333dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="65dp"
+        android:hint="@string/txt_buscador"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <ImageButton
+        android:id="@+id/btn_buscar_medicamento"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/lupa" />
+
+    <ListView
+        android:id="@+id/lv_informacion_de_medicamento"
+        android:layout_width="match_parent"
+        android:layout_height="549dp"
+        android:layout_marginTop="110dp"
+        android:padding="10dp"
+        android:scaleType="centerCrop" />
+
+
+</RelativeLayout>

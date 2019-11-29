@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/elecion_horario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EleccionHorario">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/especialidades5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:srcCompat="@drawable/especialidades5" />
+
+    <TextView
+        android:id="@+id/txt_fecha_seleccionada"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="75dp"
+        android:hint="@string/txt_fecha_ya_elegida"
+        android:textColorHint="#fff"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <TextView
+        android:id="@+id/txt_seleccion_hora"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="75dp"
+        android:hint="@string/txtseleccion_de_hora"
+        android:textColorHint="#fff"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <ListView
+        android:id="@+id/listaHorarios"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="5dp"
+        android:background="#3BFFFFFF"
+        android:scaleType="centerCrop" />
+</RelativeLayout>

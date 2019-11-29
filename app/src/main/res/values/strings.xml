@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">App70</string>
+    <string name="txt_pasword1">"    "ingrese su password</string>
+    <string name="txt_dato"> "    "ingrese su correo electronico</string>
+    <string name="btn_regis">inicniar sesion</string>
+    <string name="title_activity_opciones">Opciones</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--del menu desplegable-->
+    <string name="opn_solicitutar_consulta">Solicitar consulta</string>
+    <string name="opn_mis_consultas">Mis consultas</string>
+    <string name="opn_mis_examenes">Mis examenes</string>
+    <string name="opn_mis_medicamentos">Mis medicamentos</string>
+    <string name="opn_informacion_de_medicamentos">Inf. medicamento</string>
+    <string name="opn_cerrar_sesion">Cerrar sesion</string>
+
+
+    <!-- menu->opciones=de los 3 puntos del extremo superior derecho-->
+    <string name="item1">Especialidades</string>
+    <string name="item2">Doctores</string>
+    <string name="item3">Avisos</string>
+    <string name="item4">Desarrolladores</string>
+
+
+    <!--tetxtos de los fragmentos layout-->
+    <string name="txt_titulo_especialidades_">Especialidades</string>
+    <string name="txt_seleccion_De_fecha">Seleccione fecha deseada</string>
+    <string name="txt_seleccion_De_medico">Seleccione un Medico</string>
+    <string name="txtseleccion_de_hora">Seleccione una hora de su eleccion</string>
+    <string name="txt_fecha_ya_elegida">reserva a realizarse el 24/10/2019</string>
+    <string name="txt_cita_proxima">Cita programada</string>
+    <string name="txt_citas_concluidas">Citas concluidas</string>
+    <string name="txt_citas_fallidas">Citas_perdidas</string>
+    <string name="txt_citas_en_espera">Cita en espera</string>
+    <string name="txt_descripcion">Descripcion</string>
+    <string name="txt_exm_proxima">Examen programado</string>
+    <string name="txt_exm_concluidas">Examenes concluidos</string>
+    <string name="txt_exm_fallidas">Examen_perdidas</string>
+    <string name="txt_titulo_medicamentos1">Medicamentos resetados</string>
+    <string name="txt_buscador">introdice nombre del medicamento</string>
+    <string name="txt_lst_doctos">Lista de medicos del hospital</string>
+    <string name="txt_presentacion">Creadores</string>
+    <string name="txt_acerca_de">Acerca de xD</string>
+    <string name="txt_avisos">AVISOS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

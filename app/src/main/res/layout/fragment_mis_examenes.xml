@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fr_mis_examenes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MisExamenes">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/especialidades5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:srcCompat="@drawable/especialidades5">
+
+
+        <TextView
+            android:id="@+id/txt_exam_a_realizar"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="@string/txt_exm_proxima"
+            android:textColorHint="#fff"
+            android:textSize="18dp" />
+
+        <ListView
+            android:id="@+id/lv_examenes_a_realizar"
+            android:layout_width="wrap_content"
+            android:layout_height="129dp"
+            android:background="#3BFFFFFF" />
+        <TextView
+            android:id="@+id/txt_examenes_conluidos"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_exm_concluidas"
+            android:textColorHint="#fff"
+            android:textSize="18dp" />
+
+        <ListView
+            android:id="@+id/lv_examenes_concluidos"
+            android:layout_width="411dp"
+            android:layout_height="141dp"
+            android:background="#7A35FDF6" />
+        <TextView
+            android:id="@+id/txt_examenes_perdidos"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_exm_fallidas"
+            android:textColorHint="#fff"
+            android:textSize="18dp" />
+
+        <ListView
+            android:id="@+id/lv_examenes_perdidos"
+            android:layout_width="wrap_content"
+            android:layout_height="164dp"
+            android:background="#B7DD6161" />
+
+
+    </LinearLayout>
+</RelativeLayout>

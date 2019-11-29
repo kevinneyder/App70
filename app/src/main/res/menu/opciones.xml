@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/item_list_especialidades"
+        android:orderInCategory="100"
+        android:title="@string/item1"
+        android:drawableLeft="@drawable/mis_consultas2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item_lst_medicos"
+        android:orderInCategory="101"
+        android:drawableLeft="@drawable/solicitar_consulta2"
+        android:title="@string/item2" />
+
+    <item
+        android:id="@+id/item_avisos"
+        android:orderInCategory="101"
+        android:title="@string/item3" />
+
+    <item
+        android:id="@+id/item_desarrolladores"
+        android:orderInCategory="101"
+        android:title="@string/item4" />
+
+</menu>
